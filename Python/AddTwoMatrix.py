@@ -20,3 +20,16 @@ for i in range(len(X)):
 print("Result is")
 for r in result:
    print(r)
+
+#Adding two MAtrix using Numpy
+import numpy as np
+
+#First Matrix
+X = np.array([12,7,3,4,5,6,7,8,9],ndmin=2).reshape(3,3)
+#second matrice 
+Y =np.array([5,8,1,6,7,3,4,5,9],ndmin=2).reshape(3,3)
+
+#Sum 
+result = X+Y
+
+print(result)
